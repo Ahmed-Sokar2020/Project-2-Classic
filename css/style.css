@@ -1,0 +1,503 @@
+/* Start Global */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+}
+
+.container {
+    width: 850px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* End Global */
+
+/* Start Navbar */
+.navbar {
+    font-size: 15px;
+    height: 0;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar .brand {
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.navbar .links {
+    float: left;
+    width: 60%;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.navbar .links li {
+    display: inline-block;
+    margin: 10px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar .links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .links li.active a,
+.navbar .links li a:hover {
+    color: #1bbc9a;
+    border-bottom: 2px solid #1bbc9a;
+}
+.navbar button {
+    margin-top: 450px;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+/* End Navbar */
+
+/* Start Header */
+.header {
+    background: url("../images/web.jpg");
+    position: relative;
+}
+.header .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Reset The bx-wrapper,bx-viewport */
+.header .bx-wrapper {
+    background: none;
+    box-shadow: none;
+    border: 0;
+    height: 100%;
+}
+
+.header .bx-wrapper .bx-viewport {
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100% !important;
+    text-align: center;
+}
+
+.header .bxslider {
+    height: 100%;
+}
+
+.header .bxslider li {
+    display: block;
+}
+
+.header .bxslider li h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header .bxslider li h2 span {
+    color: #1bbc9a;
+}
+
+.header .bxslider li p {
+    font-size: 20px;
+    color: #fff;
+}
+/* End Header */
+
+/*  Start Services */
+.services {
+    padding: 40px 20px 40px;
+}
+
+.services h2 {
+    margin: 0 0 50px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.services .item {
+    float: left;
+    width: 33.333333%;
+}
+.services .item i {
+    color: #1bbc9a;
+    float: left;
+    width: 18%;
+    margin-right: 7%;
+    margin-top: 25px;
+}
+
+.services .item .info {
+    float: left;
+    width: 75%;
+}
+
+.services .item .info h3 {
+    font-weight: normal;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.services .item .info p {
+    color: #888;
+    margin-top: 0px;
+}
+
+hr {
+    border: 1px solid #eee;
+}
+/*  End Services */
+
+/* Start Our Team */
+.our-team {
+    padding: 40px 0px;
+}
+
+.our-team .box {
+    float: left;
+    margin-top: 50px;
+}
+
+.our-team .box:first-child {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.our-team .box h2 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.our-team .box p {
+    color: #888;
+    line-height: 1;
+}
+
+.our-team .box:not(:first-child) {
+    width: 16.5%;
+    margin-left: 1%;
+    position: relative;
+}
+
+.our-team .box:not(:first-child) .overlay1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1bbc9a;
+    opacity: 0.7;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 93px;
+    display: none;
+}
+
+.our-team .box:not(:first-child):hover .overlay1 {
+    display: block;
+}
+
+.our-team .box:not(:first-child) img {
+    width: 100%;
+    vertical-align: middle;
+}
+/*  End Our Team */
+
+/* Start Testmonials */
+.testim {
+    background-image: url("../images/photo6.jpeg");
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.testim .overlay2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+/* Reset The bx-wrapper,bx-viewport */
+.bx-wrapper {
+    background: none;
+    box-shadow: none;
+    border: 0;
+    height: 100%;
+}
+
+.bx-wrapper .bx-viewport {
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100% !important;
+    text-align: center;
+}
+
+.testime .bxslider2 {
+    height: 100%;
+}
+
+.testime .bxslider2 li {
+    display: block;
+}
+
+.testim h2 {
+    font-size: 30px;
+    margin: 80px 0 40px;
+}
+
+.testim .bxslider2 li q {
+    font-size: 15px;
+    line-height: 2;
+    color: #d0d0d0;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.testim .bxslider2 li p span {
+    font-size: 20px;
+    color: #1bbc9a;
+}
+
+/* End Testmonials */
+
+/* Start My Projects */
+
+.our-projects {
+    padding: 60px 0;
+}
+
+.our-projects h2 {
+    font-weight: normal;
+}
+
+.our-projects ul {
+    margin-top: 50px;
+}
+
+.our-projects ul li {
+    display: inline-block;
+    border: 1px solid #a7a7a7;
+    padding: 10px 15px;
+    color: #a7a7a7;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.our-projects ul li.active {
+    color: #fff;
+    background-color: #1bbc9a;
+    border: 1px solid #1bbc9a;
+}
+
+.our-projects .gallery {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.our-projects .gallery .row > div:nth-child(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.our-projects .gallery .row > div {
+    width: 32%;
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.our-projects .gallery .row > div .overlay3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1bbc9a;
+    opacity: 0.7;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    line-height: 185px;
+    display: none;
+}
+
+.our-projects .gallery .row > div .heart {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    color: #fff;
+    display: none;
+}
+
+.our-projects .gallery .row > div:hover .overlay3,
+.our-projects .gallery .row > div:hover .heart {
+    display: block;
+}
+
+.our-projects .gallery .row > div img {
+    width: 100%;
+    vertical-align: middle;
+}
+/* End My Projects */
+
+/* Start My Footer */
+.footer {
+    background-color: #232323;
+    color: #eee;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.footer .heading {
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+    width: 101px;
+}
+.footer .section {
+    float: left;
+    width: 25%;
+}
+
+.footer .section h2 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer .section p {
+    color: #909090;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.footer .section .icon li {
+    display: inline-block;
+    color: #909090;
+    border: 1px solid #909090;
+    padding: 10px;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.footer .section .icon li a #aa:hover {
+    color: #385998;
+}
+.footer .section .icon li a #bb:hover {
+    color: #f00;
+}
+.footer .section .icon li a #cc:hover {
+    color: #62c8f8;
+}
+
+.footer .tags span {
+    display: inline-block;
+    color: #dedede;
+    border: 1px solid #909090;
+    padding: 8px;
+    margin: 5px 5px 5px 0;
+}
+
+.footer .recent > div {
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.footer .recent > div img {
+    width: 35%;
+    float: left;
+    margin-right: 5px;
+}
+
+.footer .recent > div h4 {
+    font-weight: normal;
+    font-size: 12px;
+    margin: 5px 0;
+    color: #dedede;
+}
+
+.footer .recent > div span {
+    font-weight: normal;
+    font-size: 13px;
+    color: #909090;
+}
+
+.footer .blog ul li {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #909090;
+    color: #dedede;
+}
+
+.footer .copyright {
+    color: #909090;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+/* End My Footer */
+
+/* Start My Framework */
+.clearfix {
+    clear: both;
+}
+
+.special-heading {
+    position: relative;
+}
+
+.font {
+    font-weight: normal;
+}
+
+.special-heading:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 40px;
+    border-bottom: 3px solid #333;
+}
+/* End My Framework */
